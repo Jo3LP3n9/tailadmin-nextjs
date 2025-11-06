@@ -1,0 +1,22 @@
+# DtoUpdateSysUserPwdReq
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**newPassword** | **string** |  | [optional] [default to undefined]
+**oldPassword** | **string** |  | [optional] [default to undefined]
+
+## Example
+
+```typescript
+import { DtoUpdateSysUserPwdReq } from './api';
+
+const instance: DtoUpdateSysUserPwdReq = {
+    newPassword,
+    oldPassword,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

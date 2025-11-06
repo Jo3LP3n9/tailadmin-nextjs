@@ -1,0 +1,22 @@
+# DtoSysUserStatusUpdateReq
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**status** | **string** |  | [optional] [default to undefined]
+**userId** | **number** | 用户ID | [optional] [default to undefined]
+
+## Example
+
+```typescript
+import { DtoSysUserStatusUpdateReq } from './api';
+
+const instance: DtoSysUserStatusUpdateReq = {
+    status,
+    userId,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
