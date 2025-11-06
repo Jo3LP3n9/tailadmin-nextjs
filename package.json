@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate:api": "openapi-generator-cli generate -i ./swagger/goadmin.json -g typescript-axios -o src/api/generated --additional-properties=supportES6=true,typescriptThreePlus=true"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.15",
